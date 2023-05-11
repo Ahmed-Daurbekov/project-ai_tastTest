@@ -1,0 +1,123 @@
+.header {
+  padding: 21px 0;
+  background: #0A121F;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &-logo {
+    a {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-left: 15px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 22.5455px;
+        line-height: 31px;
+        color: #3A68B8;
+
+        @media (max-width: 500px) {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: 900px) {
+      order: 1;
+    }
+    
+    .navigation-list {
+      a {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+  
+      &s {
+        display: flex;
+        gap: 40px;
+
+        @media (max-width: 900px) {
+          display: none;
+        }
+
+        @media (max-width: 900px) {
+          padding-top: 100px;
+          padding-left: 20px;
+          z-index: 10;
+          width: 280px;
+          height: 100vh;
+          position: fixed;
+          right: -500px;
+          top: 0;
+          background: #09111E;
+          display: flex;
+          border: 1px solid #fff;
+          flex-direction: column;
+          transition: 0.3s linear;
+          flex-wrap: wrap;
+
+          &.show {
+            right: -90px;
+          }
+
+          .close {
+            font-size: 60px;
+            position: absolute;
+            top: 15px;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .burger {
+      display: none;
+      flex-direction: column;
+      gap: 7px;
+
+      @media (max-width: 900px) {
+        display: flex;
+      }
+      
+      span {
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+      }
+    }
+
+  }
+
+  .sign-in {
+
+    @media (max-width: 900px) {
+      margin-left: auto;
+    }
+    a {
+      display: inline-block;
+      font-family: 'Open Sans';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+      padding: 15px 30px;
+      border-radius: 5px;
+      background: #3A68B8;
+    }
+  }
+}

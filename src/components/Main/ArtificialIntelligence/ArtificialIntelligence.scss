@@ -1,0 +1,129 @@
+.artificial-intelligence {
+  background: #09111E;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  overflow: hidden;
+
+  @media (max-width: 650px) {
+    padding-top: 100px;
+  }
+
+  &_text {
+    z-index: 5;
+    position: relative;
+    max-width: 605px;
+  }
+
+  &_subtext {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #3A68B8;
+    margin-bottom: 10px;
+  }
+  
+  &_title {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+    @media (max-width: 1024px) {
+      text-shadow: 0 0 20px #000;
+    }
+
+    @media (max-width: 650px) {
+      font-size: 45px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 35px;
+    }
+  }
+
+  &_description {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+
+    @media (max-width: 1024px) {
+      text-shadow: 0 0 10px #000;
+    }
+
+    @media (max-width: 650px) {
+      max-width: 450px;
+    }
+
+    @media (max-width: 500px) {
+      max-width: 400px;
+    }
+  }
+
+  &_text-btns {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 425px) {
+      justify-content: space-between;
+    }
+    
+    button {
+      img {
+        margin-right: 10px;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 16px;
+      }
+      @media (max-width: 375px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &_img {
+    margin-top: 25px;
+    position: relative;
+
+    @media (max-width: 650px) {
+      position: static;
+      width: 100%;
+    }
+
+    img {
+      position: absolute;
+      top: -530px;
+      right: -250px;
+
+      @media (max-width: 650px) {
+        position: static;
+        width: 100%;
+      }
+    }
+  }
+
+  .partners {
+    margin-top: 197px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+
+    @media (max-width: 650px) {
+      margin-top: 60px;
+    }
+
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+    }
+  }
+}

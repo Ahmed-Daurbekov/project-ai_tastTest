@@ -1,0 +1,53 @@
+.card {
+  max-width: 362px;
+  display: flex;
+  box-sizing: border-box;
+  background: #161D2A;
+  border-radius: 10px;
+  padding: 30px;
+
+  &-container {
+    align-self: flex-end;
+    text-align: center;
+  }
+
+  &-img {
+    display: inline-block;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 30px;
+
+    &_1 {
+      margin-top: 47px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 16px;
+    }
+  }
+
+  &-description {
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+
+  }
+}

@@ -1,0 +1,139 @@
+.applyAI {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  background: #020A18;
+
+  @media (max-width: 900px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  &_text {
+    max-width: 485px;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+
+    @media (max-width: 900px) {
+      margin: auto;
+      margin-top: 40px;
+    }
+  }
+
+  &_title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+    @media (max-width: 650px) {
+      font-size: 40px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 30px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 27px;
+    }
+  }
+
+  &_description {
+    max-width: 460px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    @media (max-width: 650px) {
+      max-width: 430px;
+    }
+
+    @media (max-width: 425px) {
+      max-width: 335px;
+    }
+  }
+
+  &_img {
+    position: relative;
+    
+    @media (max-width: 900px) {
+      text-align: center;
+    }
+    
+    img {
+      position: absolute;
+      top: -220px;
+      left: -130px;
+
+      @media (max-width: 900px) {
+        position: static;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .customer-opinions {
+    margin-top: 170px;
+
+    @media (max-width: 768px) {
+      margin-top: 100px;
+    }
+
+    &_text {
+      max-width: 550px;
+      position: relative;
+      z-index: 5;
+
+      @media (max-width: 1100px) {
+        margin: auto;
+        margin-top: 40px;
+      }
+    }
+
+    &_description {
+      max-width: 460px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #FFFFFF;
+      opacity: 0.7;
+      margin-top: 20px;
+    }
+    
+    &_img {
+      position: relative;
+
+      @media (max-width: 1100px) {
+        text-align: center;
+      }
+
+      img {
+        position: absolute;
+        top: -20px;
+        right: 0;
+
+        @media (max-width: 1100px) {
+          position: static;
+        }
+
+        @media (max-width: 670px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  
+}

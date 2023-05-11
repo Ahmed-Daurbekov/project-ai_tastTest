@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/project-ai_tastTest/static/css/main.c8383aa0.css",
+    "main.js": "/project-ai_tastTest/static/js/main.b392c54d.js",
+    "static/media/applyAI.png": "/project-ai_tastTest/static/media/applyAI.b7571b0b3c0c0b86cde8.png",
+    "static/media/artificialIntelligenceImg.png": "/project-ai_tastTest/static/media/artificialIntelligenceImg.9c90eb674f45c209a1d6.png",
+    "static/media/customer-opinions.png": "/project-ai_tastTest/static/media/customer-opinions.3401dfab2ff631879cd7.png",
+    "static/media/slider-img_5.svg": "/project-ai_tastTest/static/media/slider-img_5.38d4d870302b3dc45c715b83d793b7f8.svg",
+    "static/media/slider-img_1.svg": "/project-ai_tastTest/static/media/slider-img_1.fbad99097b3dc4abb01fdcf1b7baae97.svg",
+    "static/media/slider-img_2.svg": "/project-ai_tastTest/static/media/slider-img_2.c8126725b11e00a59ea952f52922eb18.svg",
+    "static/media/slider-img_3.svg": "/project-ai_tastTest/static/media/slider-img_3.89a3eb7e581a48284ae1411cc5f1fcfa.svg",
+    "static/media/slider-img_4.svg": "/project-ai_tastTest/static/media/slider-img_4.6afe7514442a3b34473a683ff097cebf.svg",
+    "static/media/logoipsum-1.svg": "/project-ai_tastTest/static/media/logoipsum-1.475e0e17337bd1a7043208331053b7c6.svg",
+    "static/media/logoipsum-2.svg": "/project-ai_tastTest/static/media/logoipsum-2.83c2919480aa0614ae034ac5a85ad233.svg",
+    "static/media/logoipsum-4.svg": "/project-ai_tastTest/static/media/logoipsum-4.a1b88dfe5cc715b1b3fc931fd57c728e.svg",
+    "static/media/logo.svg": "/project-ai_tastTest/static/media/logo.ca9f9d7dc5b8077c8cc36ea9c9095994.svg",
+    "static/media/logoipsum-3.svg": "/project-ai_tastTest/static/media/logoipsum-3.935b07e6f580f619a1905dfeb7bab896.svg",
+    "index.html": "/project-ai_tastTest/index.html",
+    "static/media/videoPlay.svg": "/project-ai_tastTest/static/media/videoPlay.d3e9da30144b28ddda64bca19101f7ac.svg",
+    "main.c8383aa0.css.map": "/project-ai_tastTest/static/css/main.c8383aa0.css.map",
+    "main.b392c54d.js.map": "/project-ai_tastTest/static/js/main.b392c54d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8383aa0.css",
+    "static/js/main.b392c54d.js"
+  ]
+}
